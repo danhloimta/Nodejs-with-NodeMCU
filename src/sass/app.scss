@@ -1,0 +1,103 @@
+.title-status {
+    width: 100%;
+}
+
+.form-control.input-text {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.user-ava {
+    float: left;
+    width: 22%;
+}
+
+.user-ava img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+.list-message {
+    width: 100%;
+}
+
+.user-mess {
+    float: left;
+    width: 78%;
+    margin-bottom: 10px;
+}
+
+.mess-time {
+    position: absolute;
+    bottom: 20px;
+    left: 23%;
+}
+
+.single-message {
+    position: relative;
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 10px 12px;
+    margin-bottom: 15px;
+}
+
+.mess-time span {
+    font-size: 13px;
+}
+
+.list-message {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.info-sensor {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff
+}
+
+span.tit i {
+    margin-right: 11px;
+}
+
+.time span {
+    font-size: 20px;
+}
+
+.time {
+    text-align: center;
+    padding: 15px;
+}
+
+.datetime {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right bottom, #0984e3, #00a1f2, #00bcf4, #00d5ee, #12ebe2);
+    color: white;
+    font-weight: 500;
+}
+
+.date {
+    padding: 20px;
+}
+
+.date {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+p.today {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+p.date-today {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

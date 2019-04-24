@@ -1,0 +1,58 @@
+.title-status {
+    width: 100%;
+}
+
+.form-control.input-text {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.user-ava {
+    float: left;
+    width: 22%;
+}
+
+.user-ava img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+.list-message {
+    width: 100%;
+}
+
+.user-mess {
+    float: left;
+    width: 78%;
+    margin-bottom: 10px;
+}
+
+.mess-time {
+    position: absolute;
+    bottom: 20px;
+    left: 23%;
+}
+
+.single-message {
+    position: relative;
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 10px 12px;
+    margin-bottom: 15px;
+}
+
+.mess-time span {
+    font-size: 13px;
+}
+
+.list-message {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.info-sensor {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
